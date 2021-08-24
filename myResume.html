@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wan's Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<nav>
+    <img src="images/ProfilePicture.png" alt="Wan Peng's profile picture">
+    <h3>WAN PENG</h3>
+    <h4>Web Designer</h4>
+</nav>
+
+<main>
+    <!-- Tab links -->
+    <div class="tab">
+        <button class="tabLink" onclick="openPage(event, 'About')" id="defaultOpen">ABOUT</button>
+        <button class="tabLink" onclick="openPage(event,'Resume')">RESUME</button>
+        <button class="tabLink" onclick="openPage(event, 'Blog')">BLOG</button>
+        <button class="tabLink" onclick="openPage(event, 'Contact')">CONTACT</button>
+    </div>
+    <div class="main-content">
+    <!-- -------------------------------  Start of About page----------------------------------- -->
+    <div id="About" class="tabContent">
+        <section class="divider">
+            <!-- ***********************  ABOUT ME *********************** -->
+            <div class="content-wrap">
+                <h2>About Me</h2>
+                <ul class="aboutMe-list">
+                    <li class="aboutMe-item">Full Name: Wan Peng</li>
+                    <li class="aboutMe-item">Location: Ottawa</li>
+                    <li class="aboutMe-item">Mobile: (902) 237-4005</li>
+                    <li class="aboutMe-item">Job: Web Developer</li>
+                    <li class="aboutMe-item-last-two">Email: <a href="wanwanda.peng@gmail.com">wanwanda.peng@gmail.com</a></li>
+                    <li class="aboutMe-item-last-two">LinkedIn: <a href="https://www.linkedin.com/in/wan-peng/" target="_blank">https://www.linkedin.com/in/wan-peng/</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="divider">
+            <!-- ***********************  INTRO  *********************** -->
+            <div class="content-wrap">
+                <h2>Web developer + vlog lover</h2>
+                <p>Currently in the transition from a new grad to an industry professional. Demonstrated research and internship history of working in various projects. A passionate young professional possess strong theoretical and hands-on abilities with a Master's degree focused in Electrical and Computer Engineering from Dalhousie University.</p>
+                <p>Also into fashion and beauty, like travelling and music. Have been doing photography and learning vlog filming since Covid. Recently started painting. Always curious and open to new things!</p>
+            </div>
+        </section>
+
+        <section class="divider">
+            <!-- ***********************  QUALIFICATIONS *********************** -->
+            <div class="content-wrap">
+                <h2>Highlights</h2>
+                <ul>
+                    <li class="contact-item">Agile development and scrum team working experience</li>
+                    <li class="contact-item">Front and back end programming languages (HTML, CSS, JavaScript, C/C++, Java, Database query,  etc.)</li>
+                    <li class="contact-item">Mixed-Signal design/layout (tunable bandpass filters, power amplifiers, microstrip antenna, etc.)</li>
+                    <li class="contact-item">Circuit design with RF/Microwave Synthesis and Simulation Software (HFSS, ADS, Genesys, etc.)</li>
+                    <li class="contact-item">PCB boards design (EAGLE), Gerber and BOM file preparation and electric soldering skills</li>
+                    <li class="contact-item">Lab testing with network analyzer, oscilloscope, spectrum analyzer, multimeters, etc.</li>
+                    <li class="contact-item">Presentation, technical writing, research, problem-solving and interpersonal skills</li>
+                    <li class="contact-item">Bilingual in written and spoken English and Mandarin</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ***********************  SKILLS *********************** -->
+        <div class="content-wrap">
+            <h2>Skills</h2>
+            <ul class="skill-list">
+                <li class="skill-item">HTML</li>
+                <li class="skill-item">CSS</li>
+                <li class="skill-item">JavaScript</li>
+                <li class="skill-item">REACT</li>
+                <li class="skill-item">JAVA</li>
+                <li class="skill-item">GIT</li>
+                <li class="skill-item">RESTFUL API</li>
+            </ul>
+        </div>
+    </div>
+    <!-- --------------------------  End of About page------------------------------ -->
+
+    <!-- --------------------------  Start of Resume page------------------------------ -->
+    <div id="Resume" class="tabContent">
+        <!-- ***********************  WORK EXPERIENCE  *********************** -->
+        <section class="work-experience divider">
+            <div class="content-wrap item-details sub-divider">
+                <h2>Work Experience</h2>
+                <!-- <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p> -->
+
+                <!-- *******************Job 1**************************-->
+                <section class="job-item">
+                    <div class="job-details">
+                        <h3>Web Developer</h3>
+                        <p>Innovapost Inc., Canada Post Group of Companies</p>
+                        <p>Jun 2019 - present</p>
+                    </div>
+                    <div class="job-summary">
+                        <p>Projects:</p>
+                        <ul>
+                            <li>DSRA-Delivery System Re-Archetecture</li>
+                            <li>Retrun to Office app</li>
+                            <li>Postal Guide Rate Code Tables</li>
+                        </ul>
+                        <p>Job Description:</p>
+                        <ul>
+                            <li>Working in an agile scrum team environment on projects</li>
+                            <li>Participating in sprint planning, design, coding, unit testing and sprint reviews using Mendix low-code software platform and Visual Studio</li>
+                            <li>Developing, integrating, testing, maintaining new applications and enhancing existing and proprietary applications</li>
+                            <li>Providing support to test teams during the various testing phases</li>
+                            <li>Documenting files on Jira board to keep each stage of the software development life cycle on track</li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- End of Job block. -->
+
+                <!-- *******************Job 2**************************-->
+                <section class="job-item">
+                    <div class="job-details">
+                        <h3>RF Engineer Internship</h3>
+                        <p>6Harmonics Inc.</p>
+                        <p>Sept 2018 - May 2019</p>
+                    </div>
+                    <!-- <p>Job Description:</p> -->
+                    <div class="job-summary">
+                        <ul>
+                            <li>Worked under R&D department on radio network products developmen</li>
+                            <li>Simulated, developed PCB schematic and layout (6-layer) and troubleshot UHF Bandpass Tunable Filters (3rd order) and UHF Power Amplifier using Keysight ADS and Genesys, EAGLE, soldering tools and test equipment (network analyzer, spectrum analyzer, etc.)</li>
+                            <li>Designed and implemented firmware on MIPS, ARM and x86 embedded devices using C and C++, cross compiled and debugged radio features using IDE (NetBeans, Eclipse, etc.)</li>
+                            <li>Provided other supports including hardware debugging (SPI bus), PCB component procurement based on datasheet specs and engineering documentation (test reports, product specs, etc.)</li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- End of Job block. -->
+
+                <!-- *******************Job 3**************************-->
+                <section class="job-item">
+                    <div class="job-details">
+                        <h3>Research Assistant</h3>
+                        <p>Dalhousie University</p>
+                        <p>Sept 2015 - Aug 2018</p>
+                    </div>
+                    <div class="job-summary">
+                        <ul>
+                            <li>Developed 2 WPT systems from prototypes to products operating at 13.56 MHz of ISM band widely used for RFID under ‘Qi’ standard</li>
+                            <li>Designed more than 10 different types of wireless charging transmitters and receivers</li>
+                            <li>Wrote patents and published 2 papers for the novel WPT systems</li>
+                            <li>Worked as lab administrator responsible for Linux server administration, assisted 10-20 students testing circuit boards and keep things in good condition and maintenance</li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- End of Job block. -->
+
+                <!-- *******************Job 4**************************-->
+                <section class="job-item">
+                    <div class="job-details">
+                        <h3>Teaching Assistant</h3>
+                        <p>Dalhousie University</p>
+                        <p>Sept 2016 - Apr 2018</p>
+                    </div>
+                    <div class="job-summary">
+                        <ul>
+                            <li>Assisted with teaching Communications Electronics and Signal Analysis courses, guided students conducting 5-10 experiments and answered their questions</li>
+                            <li>Hosted Labs and delivered tutorials, helped students with course project to design, simulate, fabricate and test RF Amplifier (2 GHz) using ADS, PCB design software and test tools through my Solid understanding of electronics and RF design and proficiency in computer-aided design, optimization and debugging process</li>
+                            <li>Collected, provided feedback and marked more than 90 assignments, pre-lab and lab reports efficiently</li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- End of Job block. -->
+            </div>
+        </section>
+
+        <!-- ******************  EDUCATION ****************** -->
+        <section class="education">
+            <div class="content-wrap item-details sub-divider">
+                <h2>Education</h2>
+
+                <!-- ****************Education 1******************** -->
+                <section class="edu-item">
+                    <div class="edu-details">
+                        <h3>Dalhousie University - Halifax, Canada</h3>
+                        <p>Master of Applied Science - MASc</p>
+                    </div>
+                    <div class="edu-summary">
+                        <p>Publications:</p>
+                        <ul>
+                            <li>W. Peng, Z. Chen, “Enhanced Planar Wireless Power Transfer System Using Ferrite Material”, IEEE MTT-S Wireless Power Transfer Conference (WPTC), Montreal, Quebec, Canada, 2018</li>
+                            <li>Master Thesis: “Wireless Power Transfer Via Magnetically Coupled Resonance for Small Electronic Devices”, 2018</li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- End of School block. -->
+
+                <!-- ****************Education 2******************** -->
+                <section class="edu-item">
+                    <div class="edu-details">
+                        <h3>Sichuan University - Chengdu, China</h3>
+                        <p>Bachelor of Engineering - BEng</p>
+                    </div>
+                    <div class="edu-summary">
+                        <p>Projects:</p>
+                        <ul>
+                            <li>Design of Broadband Antenna for Simple Reverberation Chamber</li>
+                            <li>FPGA based Implementation of Pulse Position Modulation for Optical Communication</li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- End of School block. -->
+            </div>
+        </section>
+    </div>
+    <!-- --------------------------  End of Resume page------------------------------ -->
+
+    <!-- --------------------------  Start of Blog page------------------------------ -->
+    <div id="Blog" class="tabContent">
+        <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+        <section class="projects">
+            <div class="content-wrap sub-divider">
+                <h2>Featured Activities</h2>
+
+                <!-- Project 1-->
+                <section class="project-item">
+                    <img src="images/Activity3.PNG" alt="Cnada post rate code look up page">
+                    <h3>Web developer at Innovapost</h3>
+                    <p>Working as a Web Developer at Innovapost. Maintaining website for Canada Post group of companies, including their delivery system.</p>
+                    <a class="btn" href="https://innovapost.com/" target="_blank">Learn more</a>
+                </section>
+                <!-- End of Project block. -->
+
+                <!--Project 2-->
+                <section class="project-item">
+                    <img src="images/Activity2.PNG" alt="LinkedIn licenses and certifications">
+                    <h3>Learning front-end skills at LinkedIn</h3>
+                    <p>Actively learning front-end skills through LinkedIn learning. Always keep myself up to date to the most up to date technologies and tools.</p>
+                    <a class="btn" href="https://www.linkedin.com/in/wan-peng/" target="_blank">Learn more</a>
+                </section>
+                <!-- End of Project block. -->
+
+                <!--Project 3-->
+                <section class="project-item">
+                    <img src="images/Activity1.PNG" alt="Instagram home page">
+                    <h3>Vlogging at leisure time</h3>
+                    <p>Enthusiastically vlog filming and vedio clipping during spare time. Passionate about life and posting and sharing it on Instagram, Youtube and RED.</p>
+                    <a class="btn" href="https://wanwandapeng.wixsite.com/website" target="_blank">Learn more</a>
+                </section>
+                <!-- End of Project block. -->
+            </div>
+        </section>
+    </div>
+    <!-- --------------------------  End of Blog page------------------------------ -->
+
+    <!-- --------------------------  Start of Contact page------------------------------ -->
+    <div id="Contact" class="tabContent">
+        <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+        <div class="content-wrap">
+            <h2>Let's Keep in Touch!</h2>
+            <!-- Social media and contact links. -->
+            <ul class="contact-list">
+                <li class="contact-item-first-two"><a href="wanwanda.peng@gmail.com">wanwanda.peng@gmail.com</a></li>
+                <li class="contact-item-first-two"><a href="https://wanwandapeng.wixsite.com/website" target="_blank">https://wanwandapeng.wixsite.com/website</a></li>
+                <li class="contact-item"><a href="https://www.instagram.com/wanpeng1209/?hl=en" target="_blank">Instagram</a></li>
+                <li class="contact-item"><a href="https://www.linkedin.com/in/wan-peng/" target="_blank">LinkedIn</a></li>
+                <li class="contact-item"><a href="https://www.facebook.com/profile.php?id=100010143100125" target="_blank">Facebook</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- --------------------------  End of Contact page------------------------------ -->
+    </div>
+</main>
+</body>
+</html>
+
+<script src="myScripts.js"></script>
